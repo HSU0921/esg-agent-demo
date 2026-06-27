@@ -43,7 +43,8 @@ def _package(name, industry, exposure, emissions, target, gap, tone="balanced"):
         "tracking_kpis": [
             {"milestone": "T+6M", "target": "提交減碳路徑、資料缺口補件與董事會追蹤紀錄"},
             {"milestone": "T+12M", "target": "完成範疇三盤查或中期目標外部審查"},
-            {"milestone": "T+1Y", "target": f"實際排放對照{industry}產業路徑，確認轉型缺口是否縮小"},
+            {"milestone": "T+18M", "target": f"對照{industry}產業 SBT 路徑，確認轉型缺口是否縮小"},
+            {"milestone": "T+24M", "target": "最終轉型成效評估，決定續貸、展期或金融商品調整"},
         ],
         "sll_suggestion": "建議以範疇一+二年排放量減幅、再生能源使用率或單位產品碳強度作為 SLL KPI。達標可享利率優惠0.03%-0.05%。",
     }
@@ -88,7 +89,8 @@ DEMO_PORTFOLIO = [
             "tracking_kpis": [
                 {"milestone": "T+6M", "target": "提交減碳路徑與轉型計畫"},
                 {"milestone": "T+12M", "target": "完成範疇三盤查 / 提交SBTi目標審核申請"},
-                {"milestone": "T+1Y", "target": "實際碳排較基準年下降，對照石化業3.5%/年路徑"},
+                {"milestone": "T+18M", "target": "實際碳排對照石化業SBT路徑，確認轉型缺口是否縮小"},
+                {"milestone": "T+24M", "target": "最終轉型成效評估，決定續貸、展期或金融商品調整"},
             ],
             "sll_suggestion": "建議以「範疇一+二年排放量較基準年減幅」為永續績效指標，達成每年減3.5%以上可享利率優惠0.05%。",
         },

@@ -2174,7 +2174,7 @@ def step6_monitoring(client, lifecycle_placeholder=None):
         return
     run_status(["📅 建立季度重評排程...", "🚨 設定負面事件與SLL履約偵測...", "📉 呼叫工具 SBT_PATHWAY_TRACKER() / TRANSITION_GAP_CHART()..."])
     milestones = pd.DataFrame(client["engagement_package"]["tracking_kpis"])
-    milestones["監控工具"] = ["KPI_TRACKER", "SBT_PATHWAY_TRACKER", "TRANSITION_GAP_CHART"][: len(milestones)]
+    milestones["監控工具"] = ["KPI_TRACKER", "KPI_TRACKER", "SBT_PATHWAY_TRACKER", "TRANSITION_GAP_CHART"][: len(milestones)]
     st.dataframe(milestones, hide_index=True, width="stretch")
     st.subheader("SBT 貸後追蹤減碳路線圖")
     render_post_loan_sbt_pathway_chart()
